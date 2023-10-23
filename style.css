@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Gabarito:wght@500&family=Lato&family=Mukta:wght@600&family=MuseoModerno:wght@600&family=Open+Sans&family=PT+Sans:wght@700&family=Pixelify+Sans:wght@600&family=Poppins:wght@500&family=REM:wght@300&family=Roboto+Condensed&family=Roboto+Slab&family=Tilt+Neon&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 120px;
+}
+
+.logo-name {
+    
+}
