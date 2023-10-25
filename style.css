@@ -6,16 +6,17 @@
     font-size: 'Poppins', sans-serif;
 }
 
-.logo {
-    width: 120px;
+body{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: ;
 }
 
-.logo-name {
+#logo-img {
+    width: 150px;
+}
+
+.logo-container {
     
 }
 
-body{
-    display: grid;
-    grid-template-columns: 80px 350px;
-    grid-template-rows: 60px 400px 60px;
-}
