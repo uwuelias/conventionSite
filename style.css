@@ -36,6 +36,51 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
 }
+
+#uncle{
+    grid-row:2;
+    grid-column: 1;
+    height: 200px;
+}
+#g1{
+    grid-row:2;
+    grid-column:2;
+}
+
+#gordon{
+    grid-row:2;
+    grid-column:4;
+    height:200px;
+}
+#g2{
+    grid-row:2;
+    grid-column:5;
+}
+
+
+#sub{
+    grid-row:4;
+    grid-column:2;
+    height:200px;
+}
+
+#sub2{
+    grid-row:4;
+    grid-column:3;
+    height:200px;
+}
+
+#sub3{
+    grid-row:4;
+    height:200px;
+    grid-column: 4;
+}
+
+
+
+
+
+
 #logo-img {
     width: 150px;
 }
