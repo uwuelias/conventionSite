@@ -21,17 +21,22 @@ body {
   width: 10px;
 }
 
-.nav-list {
+.nav{
+  font-size:30px;
+}
+#events{
   grid-row: 1;
-  grid-column: 2/5;
-  display: flex;
-  list-style-type: none;
-  font-size: 20px;
+  grid-column: 4;
+}
+#index{
+  grid-row: 1;
+  grid-column: 3;
+}
+#guests{
+  grid-row: 1;
+  grid-column: 5;
 }
 
-.nav-list li {
-  margin-right: 20px;
-}
 
 .guestbody {
   display: grid;
@@ -93,8 +98,8 @@ body {
 
 #sub3 {
   grid-row: 4;
-  height: 200px;
   grid-column: 4;
+  height: 200px;
 }
 
 #logo-img {

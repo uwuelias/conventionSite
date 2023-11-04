@@ -7,8 +7,10 @@
     <title>Guests</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="images/dango.png" />
-    <script src="scrpt.js"></script>
+
   </head>
+
+
   <body class="guestbody">
     <div class="logo-container">
       <a href="index.html"
@@ -16,21 +18,17 @@
       /></a>
     </div>
 
-    <nav class="navbar">
-      <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="guests.html">Guests</a></li>
-        <li><a href="events.html">Events</a></li>
-      </ul>
-    </nav>
+      <a href="index.html" id="index" class="nav">Home</a>
+      <a href="guests.html" id="guests" class="nav">Guests</a>
+      <a href="events.html" id="events" class="nav">Events</a>
+
     <!--main guests-->
-    <img src="images\ur.jpg" id="uncle" alt="picture of uncle roger" />
+    <img src="images\wg.jpg" id="uncle" alt="picture of uncle roger" />
     <p id="g1">
-      Uncle Roger is a middle-aged Malaysian Asian food reviewer and Youtuber
-      based in London. He is known for his reactions and love of MSG.
+      Wang Gang is a Sichuanese chef who teaches authentic Sichuanese recipes through videos online to his 5 million followers in a straightforward manner.
     </p>
 
-    <img src="images\gr.jpg" id="gordon" alt="pic of gordon ramsay" />
+    <img src="images\gr.webp" id="gordon" alt="pic of gordon ramsay" />
     <p id="g2">
       Gordon Ramsay is a British chef. His restaurants have been awarded 17
       Michelin stars and currently holds 7.
@@ -40,15 +38,18 @@
     <button id="b1" class="gbutton">More Info</button>
     <button id="b2" class="gbutton">More Info</button>
 
+
+
     <!--sub guests-->
-    <img src="images\person.jpg" id="sub" alt="pic of person" />
-    <p id="sub">text1</p>
+    
+    <p id="sub"><img src="images\ur.webp" id="sub" alt="pic of uncle roger" /><br>
+      Booth 1: Uncle Roger, a middle-aged Malaysian. </p>
 
-    <img src="images/person.jpg" id="sub2" alt="pic of person" />
-    <p id="sub2">text2</p>
-
-    <img src="images/person.jpg" id="sub3" alt="pic of person" />
-    <p id="sub3">text3</p>
+    <p id="sub2"><img src="images/mikechen.webp" id="sub2" alt="pic of mike chen" /><br>
+      Booth 2: Mike Chen is a dude who eats</p>
+    
+    <p id="sub3"><img src="images/mattstonie.jpg" id="sub3" alt="pic of matt stonie" /><br>
+      Booth 3: Matt Stonie is a dude who also eats</p>
 
     <!--
          Each featured guest should have a large section near the 
@@ -60,8 +61,9 @@
          selects to see it. Use CSS to show and hide different pieces 
          of information. a 
         
-         chef wang gang, mikedumpling
+         uncle roger,  mikedumpling
         
-        -->
+        -->      <script src="script.js"></script>
   </body>
+
 </html>
