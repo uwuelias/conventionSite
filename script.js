@@ -1,12 +1,3 @@
-document.getElementById("b1").addEventListener("click", popup(1));
-document.getElementById("b2").addEventListener("click", popup(2));
-
-function popup(num){
-  if(num=1){
-    alert("hey");
-  }
-  if(num=2){
-    alert("no");
-  }
-}
+document.getElementById("b1").addEventListener("click", () => alert("6/9  @4:30PM \n6/10 @4:00PM"));
+document.getElementById("b2").addEventListener("click", () => alert("no"));
 
