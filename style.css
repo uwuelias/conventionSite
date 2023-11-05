@@ -30,6 +30,7 @@ body{
     color: white;
 }
 
+
 header {
     margin-top: 30px;
     margin-bottom: 5px;
@@ -43,11 +44,13 @@ header {
 .cover-container {
     width: 100%;
     height: 600px;
-    
     background-image: url();
     background-size: cover;
     background-repeat: no-repeat;
     backdrop-filter: blur(20px);
+}
+
+.cover-wrapper {
     justify-content: center;
     align-items: center;
     display: flex;
