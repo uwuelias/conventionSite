@@ -262,6 +262,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 3px;
     border: 2px black;
+    margin-top: 30px;
 }
 
 main {
@@ -274,4 +275,9 @@ footer {
   margin-top: 40px;
   height: 30px;
   background-color: #f1faee;
+}
+
+.calendar-wrapper {
+  text-align: center;
+
 }
