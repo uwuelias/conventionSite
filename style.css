@@ -40,6 +40,8 @@ header {
 .title {
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 60px;
 }
 
 .cover-container {
@@ -87,6 +89,10 @@ header {
 
 #guest-index-gordon {
   width: 400px;
+}
+
+#g-i-text{
+  font-size: 24px;
 }
 .guest-index-container {
   display: grid;
