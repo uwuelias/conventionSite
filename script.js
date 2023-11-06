@@ -16,7 +16,7 @@ function closePopUp() {
 
 function popupText1() {
   document.getElementById("popuptext").innerHTML =
-    "Wang Gang will be meeting fans during the first 2 days, 6/7 and 6/8. He will be demonstrating one of his recipes at 4:30PM on 6/7 and 4:00PM at 6/8. ";
+    "Wang Gang will be meeting fans during the first 2 days, 6/7 and 6/8. He will be demonstrating one of his recipes at 6:30PM on 6/7 and 6:00PM at 6/8. ";
   display();
 }
 function popupText2() {
@@ -36,7 +36,7 @@ function popupText4() {
 }
 function popupText5() {
   document.getElementById("popuptext").innerHTML =
-    "Matt Stonie will be at Booth 3 holding an eating contest on 6/8 at 2:00PM";
+    "Matt Stonie will be at Booth 3 holding an eating contest on 6/9 at 2:00PM";
   display();
 }
 function popupText6() {
