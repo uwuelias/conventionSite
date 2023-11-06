@@ -7,7 +7,61 @@
     <title>Guests</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="images/dango.png" />
+    <style>
+      @media screen and (min-width:3000px ){
+        #gbody{
+          grid-template-rows: 200px 600px 240px 200px 200px 600px 20px;
+        }
+      #uncle, #gordon{
+        height:600px;
+      }
+      .g1, .g2{
+        font-size:40px;
+      }
+      .gbutton {
+    width: 160px;
+    height: 80px;
+    font-size: 32px;
+      }
+      #sub, #sub2, #sub3, #sub4, #sub5, #sub6{
+        height: 400px;
+        font-size:30px;
+      }
+      #mainguestheader{
+        font-size:120px;
+      }
+      #subguestheader{
+        font-size:60px;
+      }
+      }
 
+      @media screen and (max-width:1000px ){
+        #gbody{
+          grid-template-rows: 50px 150px 80px 50px 50px 150px .1px;
+        }
+      #uncle, #gordon{
+        height:150px;
+      }
+      .g1, .g2{
+        font-size:10px;
+      }
+      .gbutton {
+      width: 40px;
+      height: 20px;
+      font-size: 8px;
+      }
+      #sub, #sub2, #sub3, #sub4, #sub5, #sub6{
+        height: 100px;
+        font-size:7.5px;
+      }
+      #mainguestheader{
+        font-size:30px;
+      }
+      #subguestheader{
+        font-size:15px;
+      }
+      }
+      </style>
   </head>
   <header>
     <div class="logo-container">
@@ -24,54 +78,89 @@
   </header>
 
   <body>
-  <hr>
-
-      <div class="popup" id="popup"> 
+    <hr/>
+      <div id="gbody">
+    <h2 id="mainguestheader">MAIN GUESTS</h2>
+    
+    <div class="popup" id="popup">
       <div class="content">
-        <p id="popuptext">content</p>
+        <p id="popuptext">error</p>
         <button id="cbutton">Close</button>
       </div>
     </div>
 
 
+      <img src="images\wg.jpg" id="uncle" class="mainimg" alt="picture of uncle roger" />
+      <p class="g1">
+        Wang Gang is a Sichuanese chef who teaches authentic Sichuanese recipes
+        through videos online to his 5 million followers in a straightforward
+        manner.
+      </p>
 
-  <div id="gbody">
-    <img src="images\wg.jpg" id="uncle" alt="picture of uncle roger" />
-    <p class="g1">
-      Wang Gang is a Sichuanese chef who teaches authentic Sichuanese recipes through videos online to his 5 million followers in a straightforward manner.
-    </p>
+      <img src="images\gr.webp" id="gordon" class="mainimg" alt="pic of gordon ramsay" />
+      <p class="g2">
+        Gordon Ramsay is a British chef. His restaurants have been awarded 17
+        Michelin stars and currently holds 7.
+      </p>
 
-    <img src="images\gr.webp" id="gordon" alt="pic of gordon ramsay" />
-    <p class="g2">
-      Gordon Ramsay is a British chef. His restaurants have been awarded 17
-      Michelin stars and currently holds 7.
-    </p>
+      <!--set up button here-->
+      <button id="b1" class="gbutton">More Info</button>
 
-    <!--set up button here-->
-    <button id="b1" class="gbutton">
-      More Info
-    </button>
-    
-    <button id="b2" class="gbutton" >
-      More Info
-    </button>
+      <button id="b2" class="gbutton">More Info</button>
 
+      <button id="b3" class="gbutton">More Info</button>
 
+      <button id="b4" class="gbutton">More Info</button>
 
-    <!--sub guests-->
-    
-    <p id="sub"><img src="images\ur.webp" id="sub" alt="pic of uncle roger" /><br>
-      Booth 1: Uncle Roger, a middle-aged Malaysian. </p>
+      <button id="b5" class="gbutton">More Info</button>
 
-    <p id="sub2"><img src="images/mikechen.webp" id="sub2" alt="pic of mike chen" /><br>
-      Booth 2: Mike Chen is a dude who eats</p>
-    
-    <p id="sub3"><img src="images/mattstonie.jpg" id="sub3" alt="pic of matt stonie" /><br>
-      Booth 3: Matt Stonie is a dude who also eats</p>
+      <button id="b6" class="gbutton">More Info</button>
 
-    <p id="sub4"><img src="" id="sub4" alt="pic of "><br>
-      Booth 4: dude </p>
-  </div>
+      <!--sub guests-->
+      <h2 id="subguestheader">SUBGUESTS</h3>
+
+      <p id="sub">
+        <img src="images\ur.webp" id="sub" alt="pic of uncle roger" /><br />
+        <b>Booth 1:</b> Uncle Roger is a <br>
+        middle-aged Malaysian man <br>
+        who reviews Asian food on <br>
+        his YouTube channel.
+      </p>
+
+      <p id="sub2">
+        <img
+          src="images/mikechen.webp"
+          id="sub2"
+          alt="pic of mike chen"
+        /><br />
+        <b>Booth 2:</b> Mike Chen is a <br>
+        Chinese-born American <br>
+        Youtuber who vlogs his <br>
+        exploration of food all <br>
+        around the world.
+      </p>
+
+      <p id="sub3">
+        <img
+          src="images/mattstonie.jpg"
+          id="sub3"
+          alt="pic of matt stonie"
+        /><br />
+        <b>Booth 3:</b> Matt Stonie is an <br>
+        American competitive eater <br>
+        and YouTuber, winner of <br>
+        the 2015 Nathan's Hot dog <br>
+        Eating Contest.
+      </p>
+
+      <p id="sub4">
+        <img src="images/elias.png" id="sub4" alt="pic of elias" /><br />
+        <b>Booth 4:</b> Elias Wu Feng is a <br>
+        student at BTHS with a <br>
+        record of 5 plates of pasta<br>
+        at Olive Garden. 
+      </p>
+    </div>
     <!--main guests-->
 
     <!--
@@ -87,10 +176,9 @@
          uncle roger,  mikedumpling
         
         -->
-     <script src="script.js"></script>
-
-
-
-  </body>
-
+        <footer>
+          <p>&copy;2023 Elias & Donnie Inc, All right reserved</p>
+        </footer>
+<script src="script.js"></script>
+  </body>    
 </html>
