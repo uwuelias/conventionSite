@@ -6,6 +6,7 @@ document.getElementById("b5").addEventListener("click", popupText5);
 document.getElementById("b6").addEventListener("click", popupText6);
 document.getElementById("cbutton").addEventListener("click", closePopUp);
 
+
 function display() {
   document.getElementById("popup").style.display = "block";
 }
@@ -44,3 +45,7 @@ function popupText6() {
     "Elias Wu Feng will be at Booth 4 during the entire event.";
   display();
 }
+
+
+
+

@@ -7,9 +7,9 @@
     <title>Events</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="images/logo.png" />
-    <script async src="script.js"></script>
+    <link rel="stylesheet" href="events.css">
   </head>
-  <body>
+  <body class="events">
     <header>
       <div class="logo-container">
         <a href="index.html"
@@ -28,32 +28,40 @@
     <hr />
 
     <main class="event-main">
+      <div class="popup" id="popup">
+        <div class="content">
+          <p id="popuptext">error</p>
+          <button id="cbutton">Close</button>
+        </div>
+      </div>
       <div class="calendar-container">
         <div class="calendar-wrapper" id="day1">
           <h1>June 7</h1>
-          <h3>Wang Gang Meet and Greet</h3>
+          <h3><button id="d1wg">Wang Gang Meet and Greet</button></h3>
           <p>Time: 4:00PM to 8:00PM</p>
-          <h3>Uncle Roger Meet and Greet and Food Review</h3>
+          <h3><button id="d1ur">Uncle Roger Meet and Greet and Food Review</button></h3>
           <p>Time: 12:00PM to 5:00PM</p>
-          <h3>Mike Chen (StrictlyDumpling) Meet and Greet</h3>
+          <h3><button id="d1mc">Mike Chen (StrictlyDumpling) Meet and Greet</button></h3>
           <p>Time: 1:00PM to 5:00PM</p>
-          <h3>Elias Meet and Greet</h3>
+          <h3><button id="d1emg">Elias Meet and Greet</button></h3>
           <p>Time: 12:00PM to 8:00PM</p>
         </div>
         <div class="calendar-wrapper" id="day2">
           <h1>June 8</h1>
-          <h3>Uncle Roger Meet and Greet and Food Review</h3>
+          <h3><button id="d2ur">Uncle Roger Meet and Greet and Food Review</button></h3>
           <p>Time: 2:00PM to 4:00PM</p>
-          <h3>Mike Chen (StrictlyDumpling) Meet and Greet</h3>
+          <h3><button id="d2mc">Mike Chen (StrictlyDumpling) Meet and Greet</button></h3>
           <p>Time: 1:00PM to 5:00PM</p>
-          <h3>Wang Gang Demonstration</h3>
+          <h3><button id="d2wg">Wang Gang Demonstration</button></h3>
           <p>Time: 6:30PM to 8:00PM</p>
+          <button id="d2emg">Elias Meet and Greet</button>
+          <p>Time: 12:00PM to 8:00PM</p>
         </div>
         <div class="calendar-wrapper" id="day3">
           <h1>June 9</h1>
-          <h3>Matt Stonie Eating Contest</h3>
+          <h3><button id="d3ms">Matt Stonie Eating Contest</button></h3>
           <p>Time: 2:00PM to 4:00PM</p>
-          <h3>Gordon Ramsay Speech</h3>
+          <h3><button id="d3gr">Gordon Ramsay Speech</button></h3>
           <p>Time: 4:00PM to 7:00PM</p>
         </div>
       </div>
@@ -67,5 +75,6 @@
     <footer>
       <p>&copy;2023 Elias & Donnie Inc, All right reserved</p>
     </footer>
+    <script src="events.js"></script>
   </body>
 </html>

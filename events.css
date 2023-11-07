@@ -1,0 +1,24 @@
+button {
+    background: none; 
+    border: none;     
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    margin-bottom: 7px;
+}
+
+button:hover {
+    color: #C1121F;
+}
+#cbutton {
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    bottom: 100px;
+    border-radius: 10px;
+  }
+

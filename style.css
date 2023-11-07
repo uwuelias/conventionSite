@@ -7,9 +7,8 @@
 }
 
 body {
-  background-color: #669BBC;
+  background-color: #669bbc;
   color: white;
-
 }
 
 .nav-bar ul {
@@ -147,7 +146,7 @@ header {
 #gbody {
   display: inline-grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 100px 300px 120px 100px 100px 300px 1px;
+  grid-template-rows: 100px 300px 120px 100px 100px 300px 200px;
 }
 
 #mainguestheader {
@@ -298,11 +297,17 @@ footer {
   height: 30px;
   width: 100%;
   background-color: #003049;
-  margin-top: 60px;
-  position:fixed;
-  bottom:0;
 }
 
+
+
+.guest main {
+  height: 100vh;
+}
+
+.events main {
+  height: 100vh;
+}
 .calendar-wrapper {
   text-align: center;
 }
