@@ -39,6 +39,7 @@ header {
 
 .title {
   text-align: center;
+  text-decoration: underline;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 60px;
@@ -80,7 +81,8 @@ header {
 
 .guest-teaser-text {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
+  text-decoration: underline;
 }
 
 #guest-index-wang {
@@ -91,7 +93,7 @@ header {
   width: 400px;
 }
 
-#g-i-text{
+#g-i-text {
   font-size: 24px;
 }
 .guest-index-container {
@@ -118,6 +120,26 @@ header {
 .guest-index-wrapper {
   display: flex;
   flex-direction: column;
+}
+
+.country-wrapper {
+  padding-top: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+#country-header {
+  text-decoration: underline;
+  font-size: 34px;
+  padding-bottom: 30px;
+}
+.countries-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.countries-grid img {
+  border: 1px solid;
+  height: 200px;
 }
 
 #gbody {
@@ -152,11 +174,10 @@ header {
   padding-right: 2px;
   font-size: 20px;
 }
-.mainimg{
-  height:300px;
+.mainimg {
+  height: 300px;
 }
 #gordon {
-
   grid-column: 4;
   height: 300px;
   padding: 10px;
@@ -258,11 +279,11 @@ header {
 }
 
 .calendar-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 3px;
-    border: 2px black;
-    margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3px;
+  border: 2px black;
+  margin-top: 30px;
 }
 
 main {
@@ -279,5 +300,4 @@ footer {
 
 .calendar-wrapper {
   text-align: center;
-
 }
